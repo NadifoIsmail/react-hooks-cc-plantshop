@@ -16,7 +16,7 @@
 * Start the react app by running npm start
 * And you are all done
 ## Live server
-* You can view the web live on [Plant Store]()
+* You can view the web live on [Plant Store](https://plantsy-plant-store.netlify.app/)
 ## Known Bugs
 The application works perfectly well, no bugs.
 ## Technologies Used
