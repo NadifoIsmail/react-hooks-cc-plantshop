@@ -7,7 +7,9 @@
     "node-fetch": "^2.7.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^9.0.0",
+    "sweetalert2": "^11.14.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,6 +46,13 @@
       "<rootDir>/jest.setup.js"
     ],
     "testEnvironment": "jsdom",
-    "testPathIgnorePatterns": ["/test_suites"]
-  }
+    "testPathIgnorePatterns": [
+      "/test_suites"
+    ]
+  },
+  "description": "* Plant store is a simple web application that allows users to view available plants,add new plants,mark plants as sold out and search for specific plants ## Features * Display all plants available in the store when the app loads. * Add a new plant to the list by submitting a form. * Mark plants as 'sold out' when they are no longer available. * Search for plants by name and display a filtered list. ## Setup/Installation Requirements * Download or clone this repository to your machine * Extract the files * Run npm install in your terminal * Start the json server by running npm run server * Start the react app by running npm start * And you are all done ## Live server * You can view the web live on [Plant Store]() ## Known Bugs The application works perfectly well, no bugs. ## Technologies Used React,React Toastify and Json server ## Support and contact details email :: nadifo.ismail@student.moringaschool.com ### License *LIcenced under the [MT-licence]* Copyright (c) 2024 **Nadifo Ismail**",
+  "main": "babel.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
