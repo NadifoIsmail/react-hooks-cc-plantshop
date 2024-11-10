@@ -11,7 +11,7 @@ function PlantPage() {
   
   //fetch all plants
   useEffect(() => {
-    fetch("http://localhost:6001/plants")
+    fetch("https://react-hooks-cc-plantshop-8d88.onrender.com/plants")
       .then((res) => res.json())
       .then((data) => setPlants(data));
   }, []);
@@ -24,7 +24,7 @@ function PlantPage() {
 
   //function to delete a plant
   function handleDelete(id) {
-    fetch(`http://localhost:6001/plants/${id}`, {
+    fetch(`https://react-hooks-cc-plantshop-8d88.onrender.com/plants/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())
