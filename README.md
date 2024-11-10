@@ -24,6 +24,6 @@ React,React Toastify and Json server
 ## Support and contact details
 email :: nadifo.ismail@student.moringaschool.com
 ### License
-*LIcenced under the [MT-licence]*
+*LIcenced under the [MT-licence](https://github.com/NadifoIsmail/react-hooks-cc-plantshop/blob/master/LICENSE.md)*
 Copyright (c) 2024 **Nadifo Ismail**
   
